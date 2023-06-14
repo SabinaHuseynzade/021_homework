@@ -67,9 +67,9 @@ console.log(Letters("Happy Birthday"));
 
 function post(index) {
 
-    if (index.length !== 5) {
+    if (index.length < 5) {
       return false;
-    }else if (!/^\d+$/.test(index)) {
+    }else if (!/\d+$/.test(index)) {
       return false;
     }
     return true;
