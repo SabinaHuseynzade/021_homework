@@ -1,0 +1,26 @@
+.all{
+    background-color: black;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin: 20px auto;
+}
+.ping{
+    background-color: white;
+    height: 80px;
+    width: 10px;
+    position: absolute;
+}
+#pong1{
+    left: 0;
+}
+#pong2{
+    right: 0;
+}
+#ball{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}

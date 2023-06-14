@@ -44,11 +44,6 @@ console.log(plusHushtag("### +"));
 
 // secret
 
-function secret(name) {
-    const firstLetter = name.map(name => name[0].toUpperCase());
-    return firstLetter.sort().join('');
-}
-console.log(secret(["Адам", "Сара", "Малкольм"])); 
 
 // Letters
 
